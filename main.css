@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 18px;
+    color: #707070;
+}
+a {
+    color: #4570C7;
+}
+h1 { 
+    color: #141414;
+    margin: -0.2em 0 0 0 ;
+}
+.langs {
+    padding: 1em 0;
+}
+.article_preview h1{ 
+ padding-bottom: 1em;
+ font-size: 3em;
+}
+.article_preview date{
+    font-size: 0.9em;
+}
+.main_container {
+    display: flex;
+}
+.cont_container {
+    max-width: 70%;
+}
+.menu_container {
+    min-width: 400px;;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.menu_container ul {
+    padding-left: 0;
+    padding: 1.5em 0 0 0;
+}
+.menu_elem {
+    list-style-type: none;
+    padding: 1.5em 0 0 0;
+}
+
+.menu_elem a { 
+    color: #707070;
+    text-decoration: none;
+}
+.menu_elem a:hover {
+    color: #4e4e4e;
+}
+
+.left_footer {
+    position: absolute;
+    bottom: 1em;
+}

@@ -25,6 +25,7 @@ h1 {
 }
 .cont_container {
     max-width: 70%;
+    padding: 1em 0;
 }
 .menu_container {
     min-width: 400px;;
@@ -52,4 +53,19 @@ h1 {
 .left_footer {
     position: absolute;
     bottom: 1em;
+}
+@media (max-width: 1000px) {
+    .main_container {
+        flex-wrap: wrap;
+    }
+    .cont_container {
+        max-width: 90%;
+        padding-left: 2em;
+    }
+    .menu_container ul{
+        display: flex;
+    }
+    .menu_elem {
+        padding: 0 1.5em 0 0;
+    }
 }

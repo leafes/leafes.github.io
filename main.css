@@ -16,7 +16,7 @@ a {
 }
 
 nav {
- margin: 10vh 0;
+ margin: 10vh 0 72px 0;
  font-size: 32px;
  display: flex;
  justify-content: space-between;
